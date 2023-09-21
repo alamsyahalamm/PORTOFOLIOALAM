@@ -1,10 +1,4 @@
-/**
-* Template Name: Kelly
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -599,6 +593,13 @@ section {
   color: #555555;
 }
 
+
+
+
+.about div h2 {
+  margin-top: 5%;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -651,7 +652,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #34b7a7;
+  background-color: transparent;
 }
 
 /*--------------------------------------------------------------
@@ -782,7 +783,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #effbf9;
+  background: transparent;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -821,8 +822,8 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  box-shadow: 0px 0 35px 0 rgba(95, 95, 95, 0.08);
 }
 
 .services .icon-box .icon {
@@ -867,6 +868,7 @@ section {
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
+  color: #444444;
   margin-bottom: 0;
 }
 
@@ -1272,7 +1274,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e9e8e6;
+  background: #57866d;
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
